@@ -1,0 +1,15 @@
+h1{
+    color: green;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div{
+    border-style: solid;
+    border-width: 1px;
+    /* border-left: 12px; */
+    margin: 0 0 12px 12px;
+    padding-left: 12px;
+}
