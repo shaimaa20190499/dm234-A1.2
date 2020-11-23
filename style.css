@@ -1,6 +1,7 @@
 /* body */
 body{
     background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(196, 197, 197));
+    background-repeat: no-repeat;
 }
 
 /* Navigation Bar */
