@@ -31,11 +31,11 @@ nav a.signin{
     float: right;
 }
 /* Active Page */
-nav a.active{
+nav a#active{
     background-color: limegreen;
     color: linen;
 }
-nav a.active:hover{
+nav a#active:hover{
     background-color: limegreen;
     color: linen;
 }
