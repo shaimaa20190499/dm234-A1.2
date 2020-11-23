@@ -1,4 +1,56 @@
-h1{
+/* Navigation Bar */
+nav{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    margin: 0 10px;
+    text-decoration-line: none;
+    color: cornflowerblue;
+    padding: 15px 10px;
+    margin: 0 5px;
+    border-radius: 10%;
+}
+nav a:hover{
+    background-color: mediumseagreen;
+    color: white;
+}
+nav a.signin{
+    float: right;
+}
+/* Active Page */
+nav a.active{
+    background-color: limegreen;
+    color: linen;
+}
+nav a.active:hover{
+    background-color: limegreen;
+    color: linen;
+}
+
+
+/* ==== Home Page ==== */
+div.home{
+    border: 0;
+
+}
+div.home h1{
+    color: lightseagreen;
+    font-size: 25px;
+}
+div.home span{
+    color: lightseagreen;
+    font-size: 35px;
+}
+
+/* ==== New Student Page ==== */
+h1.new{
     color: green;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
@@ -13,3 +65,22 @@ div{
     margin: 0 0 12px 12px;
     padding-left: 12px;
 }
+
+/* ==== Student List ==== */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table thead tr{
+    text-align: center;
+    background-color: teal;
+}
+table thead tr td{
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+}
+table tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+

@@ -2,12 +2,16 @@
 <html>
     <head>
         <title>Student List</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <!-- Header -->
-        <a href="index.html" target="_bland">Home</a>
-        <a href="studentlist.html" target="_bland">Student List</a>
-        <a href="newstudent.html" target="_bland">New Student</a>
+        <nav>
+            <a href="index.html" target="_bland">Home</a>
+            <a class="active" href="studentlist.html" target="_bland">Student List</a>
+            <a href="newstudent.html" target="_bland">New Student</a>
+            <a class="signin" href="signin.html">LogOut</a>
+        </nav>
         <!-- #Header -->
         <hr>
         
@@ -23,12 +27,8 @@
             </thead>
             <tbody>
                 <tr>
-                    <td colspan="2">
-                        <ul>
-                            <li>20190499</li>
-                            <li>Shay</li>
-                        </ul>
-                    </td>
+                    <td>20190499</td>
+                    <td>Shay</td>
                     <td>Computer Science</td>
                     <td><img src="Images/student.jpg" alt="Student" width="100" height="100"></td>
                 </tr>
